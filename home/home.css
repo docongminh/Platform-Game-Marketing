@@ -744,7 +744,7 @@ a:hover {
   position: absolute;
   bottom: 150px;
   left: 0px;
-  width: 70%;
+  width: 63%;
   z-index: 40;
   max-width: 1600px;
   right: 0px;
@@ -758,14 +758,14 @@ a:hover {
   justify-content: space-between;
   width: 100%;
   backdrop-filter: blur(20px);
-  height: 70px;
+  height: 60px;
   margin: 0px;
   padding: 0px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .jAMurP li {
   display: block;
-  line-height: 75px;
+  line-height: 60px;
   width: 200px;
   list-style-type: none;
   cursor: pointer;
@@ -796,7 +796,7 @@ ul.subMenu {
   display: none;
 }
 ul.subMenu li {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(8, 8, 8, 0.616);
 }
 .jAMurP li:hover .subMenu {
   display: block;
