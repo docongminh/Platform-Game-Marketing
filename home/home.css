@@ -79,6 +79,13 @@ body {
   height: 3.7em;
   padding: 0;
 }
+#propNav .propLogo {
+  width: 100px;
+}
+#propNav .propLogo img {
+  height: 100%;
+  width: auto;
+}
 @media only screen and (min-width: 768px) {
   #egh .right-col {
     position: absolute;
@@ -173,6 +180,8 @@ a#propLogo {
 }
 li {
   list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 #egh nav #propNav {
   height: 3.7em;
