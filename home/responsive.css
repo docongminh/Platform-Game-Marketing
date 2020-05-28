@@ -27,6 +27,10 @@
     font-size: 21px;
     line-height: 27px;
   }
+  #propNav .propLogo {
+    width: 270px;
+    padding: 10px;
+  }
   a#propLogo {
     font-size: 60px;
     line-height: 75px;
@@ -150,7 +154,7 @@
   }
   .jAMurP {
     position: absolute;
-    bottom: 1%;
+    bottom: 6%;
     left: 0px;
     width: 69%;
     z-index: 40;

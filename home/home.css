@@ -7,7 +7,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-
 body {
   margin: 0;
 }
@@ -29,6 +28,9 @@ body {
   height: 3.7em;
   position: static !important;
   text-size-adjust: 100%;
+}
+.dropdown p {
+  font-weight: bold;
 }
 #egh.unreal_engine .bg-color,
 #egh.unreal_engine nav,
@@ -80,7 +82,8 @@ body {
   padding: 0;
 }
 #propNav .propLogo {
-  width: 100px;
+  width: 190px;
+  padding: 7px;
 }
 #propNav .propLogo img {
   height: 100%;
