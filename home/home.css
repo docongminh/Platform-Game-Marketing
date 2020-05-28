@@ -30,6 +30,9 @@ body {
   position: static !important;
   text-size-adjust: 100%;
 }
+.dropdown p {
+  font-weight: bold;
+}
 #egh.unreal_engine .bg-color,
 #egh.unreal_engine nav,
 #egh.unreal_engine ul {
