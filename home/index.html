@@ -6,25 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="responsive.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <script src="https://tracking.unrealengine.com/tracking.js" async=""></script>
-  <script>
-    window.__tracking_base = "https://tracking.unrealengine.com";
-  </script>
   <div class="ue-react" id="ueReactWrapper">
     <!-- START: HEADER -->
     <header id="egh" class="unreal_engine init pos-fixed" data-version="7.1.28">
       <nav id="nav" class="pos-fixed desktop">
         <div>
           <div id="propNav">
-            <div id="egLogo" class="egLogo cursor-pointer" role="button" tabindex="0">
+            <!-- <div id="egLogo" class="egLogo cursor-pointer" role="button" tabindex="0">
               <a href="https://www.epicgames.com" title="Epic Games"
                 class="shieldLogo text-color bg-color text-color-border-after"></a>
-            </div>
-            <a role="button" id="propLogo" href="/" class="propLogo"></a>
+            </div> -->
+            <a id="propLogo" href="/" class="propLogo">
+              Gamee
+            </a>
             <div role="button" tabindex="0" id="navLine" class="nav-line">
               <span class="lines text-color-bg text-color-before-after"></span>
             </div>
@@ -286,15 +285,15 @@
                   <li class="">
                     <a href="/login?lang=en_US&amp;state=%2Fen-US%2F" title="Sign In"
                       class="text-color-hover text-color-nonactive">
-                      <i class="fa fa-user" style="padding-top: 20px; padding-right: 5px;"></i>
-                      <span class="sign-text item-label display-name text-color" style="font-size: 12px;">Sign In</span>
+                      <i class="fa fa-user"></i>
+                      <span class="sign-text item-label display-name text-color">Sign In</span>
                     </a>
                   </li>
                 </ul>
               </div>
               <div class="cta accent-bg-color accent-bg-color-hover" style="background: #10b4f5;" id="cta">
                 <a href="/en-US/get-now" class="accent-bg-color accent-bg-color-hover" title="Download">
-                  <p class="accent-text-color accent-text-color-hover" style="font-size: 12px; line-height: 27px;">
+                  <p class="accent-text-color accent-text-color-hover">
                     Download
                   </p>
                 </a>
@@ -350,7 +349,9 @@
                     <div class="HomePageHeaderstyles__HeaderContentWrapper-sc-1a48466-1 bMpYPS">
                       <div class="HomePageHeaderstyles__TitleWrapper-sc-1a48466-2 gdvtrp title-wrap">
                         <div class="HomePageHeaderstyles__LogoWrap-sc-1a48466-8 wxRUi">
-                          <div class="BgImg-mfayrd-0 fQMGqW"></div>
+                          <div class="BgImg-mfayrd-0 fQMGqW">
+                            <img src="../assets/images/GAMEE.png" alt="">
+                          </div>
                         </div>
                       </div>
                       <div class="HomePageHeaderstyles__BottomContent-sc-1a48466-3 jKtyYv bottom-content">
@@ -639,71 +640,6 @@
       </div>
       <!-- END: Footer -->
     </div>
-    <script src="https://cdn1.unrealengine.com/static/js/tweenmax/TweenMax-1.19.0.min.js"
-      crossorigin="anonymous"></script>
-    <script>
-      // Add body class depending on whether or not a touch device is being used
-      // by looking at the orientation property
-      if (typeof window.orientation !== "undefined") {
-        document.addEventListener("DOMContentLoaded", function () {
-          document.querySelector("body").className += " touch";
-        });
-      } else {
-        document.addEventListener("DOMContentLoaded", function () {
-          document.querySelector("body").className += " no-touch";
-        });
-      }
-      window.server_rendered = true;
-      window.appContext = "";
-    </script>
-    <script>
-      window["__ue_asset_path"] =
-        "https://static-assets-prod.epicgames.com/unrealengine/static/webpack/";
-    </script>
-    <script key="app-js"
-      src="https://static-assets-prod.epicgames.com/unrealengine/static/webpack/./app.epic-unreal-engine.b1dbb0c5cd4b0ecb78be.js"
-      crossorigin="anonymous"></script>
-    <!-- <div class="footer-news-letter-modal egh-theme unreal_engine"></div> -->
-    <script>
-      if (document && window) {
-        (function () {
-          var applyIcon = function (type) {
-            var link = document.createElement("link");
-            if (!link) return;
-            try {
-              link.setAttribute("rel", "icon");
-              var source = document.querySelector(
-                'link[media*="(prefers-color-scheme:' + type || "light" + ')"]'
-              );
-              if (source === null) return;
-
-              link.setAttribute("type", source.type);
-              link.setAttribute("href", source.href);
-              link.setAttribute("sizes", source.sizes);
-              link.setAttribute("media", source.media);
-              document.head.appendChild(link);
-            } catch (e) {
-              console.error("Failed to switch favion", type, e.message);
-            }
-          };
-
-          var darkQuery = window.matchMedia("(prefers-color-scheme:dark)");
-          var lightQuery = window.matchMedia("(prefers-color-scheme:light)");
-
-          if (darkQuery.matches) {
-            applyIcon("dark");
-          }
-
-          darkQuery.addListener(function () {
-            applyIcon("dark");
-          });
-
-          lightQuery.addListener(function () {
-            applyIcon("light");
-          });
-        })();
-      }
-    </script>
 </body>
 
 </html>
