@@ -7,7 +7,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-
 body {
   margin: 0;
 }
@@ -83,7 +82,8 @@ body {
   padding: 0;
 }
 #propNav .propLogo {
-  width: 100px;
+  width: 190px;
+  padding: 7px;
 }
 #propNav .propLogo img {
   height: 100%;
