@@ -131,7 +131,7 @@
   a#propLogo {
     font-size: 40px;
     line-height: 50px;
-    margin: 0px 0 0 50px;
+    margin: 0px 50px 0 50px;
     color: #fff;
   }
   .ul-left i.fa.fa-user {
@@ -150,7 +150,7 @@
   }
   .jAMurP {
     position: absolute;
-    bottom: 2%;
+    bottom: 1%;
     left: 0px;
     width: 69%;
     z-index: 40;
@@ -182,7 +182,7 @@
   a#propLogo {
     font-size: 40px;
     line-height: 50px;
-    margin: 0px 0 0 50px;
+    margin: 0px 50px 0 50px;
     color: #fff;
   }
   .ul-left i.fa.fa-user {
