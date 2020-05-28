@@ -77,6 +77,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.bottom .image-gallery-right-nav {
+  outline: none;
+}
 #egh nav #propNav {
   height: 3.7em;
   padding: 0;

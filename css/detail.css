@@ -9,15 +9,6 @@ section{
 a{
       color: #0aaff1;
 }
-<<<<<<< HEAD
-=======
-a:focus,
-a:hover {
-  color: #077aa8;
-  text-decoration: underline;
-}
->>>>>>> eee26dd98fce59b0a60e7fbb1513c4d07db4cf0a
-@charset "UTF-8";
 /*!
   Ionicons, v2.0.0
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -869,8 +860,6 @@ a:hover {
     position: initial;
     margin: 10px 0px;
 }
-<<<<<<< HEAD
-=======
 /*--------------------------------------------------------tab decription---------------------------------------------------------*/
 .asset-desc.asset-description-wrapper.row p{
   margin-bottom: 0px; 
@@ -878,4 +867,3 @@ a:hover {
 section.asset-desc.row.tags p a {
     margin-right: 25px;
 }
->>>>>>> eee26dd98fce59b0a60e7fbb1513c4d07db4cf0a

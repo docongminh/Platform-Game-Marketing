@@ -28,14 +28,13 @@
     line-height: 27px;
   }
   #propNav .propLogo {
-    width: 270px;
-    padding: 10px;
+    width: 260px;
+    padding: 7px;
   }
-  a#propLogo {
-    font-size: 60px;
-    line-height: 75px;
-    margin: 0px 60px 0 50px;
-    color: #fff;
+  #propNav .propLogo img {
+    height: 100%;
+    width: auto;
+    padding-bottom: 7px;
   }
   ul.bg-color.ul-left {
     margin-top: 26px;
