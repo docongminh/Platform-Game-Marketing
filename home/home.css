@@ -6,12 +6,10 @@ body {
   font-family: OpenSans, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #000;
 }
 
 body {
   margin: 0;
-  background-color: #2a2a2a;
 }
 
 /* Body css */
@@ -25,27 +23,22 @@ body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px !important;
   line-height: 1.42857143;
-  background-color: #2a2a2a;
-  background: #2a2a2a;
-  -webkit-font-smoothing: auto;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   height: 3.7em;
   position: static !important;
-  -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 #egh.unreal_engine .bg-color,
 #egh.unreal_engine nav,
 #egh.unreal_engine ul {
-  background-color: #2a2a2a;
+  background: #fff !important;
 }
 #egh.unreal_engine .text-color,
 #egh.unreal_engine a,
 #egh.unreal_engine nav {
-  color: #e7e7e7;
+  color: #000;
 }
 #egh nav {
   position: absolute;
@@ -112,9 +105,6 @@ body {
 }
 #egh .egLogo,
 #egh .egLogo:hover {
-  -webkit-transition: opacity 0.2s ease-out;
-  -o-transition: 0.2s opacity ease-out;
-  -o-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
 }
 #egh .cursor-pointer {
@@ -141,9 +131,6 @@ a#propLogo {
 }
 #egh .propLogo:hover {
   opacity: 1;
-  -webkit-transition: opacity 0.2s ease-in;
-  -o-transition: 0.2s opacity ease-in;
-  -o-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
 }
 #egh a:active,
@@ -157,8 +144,6 @@ a#propLogo {
 #egh .nav-line {
   pointer-events: auto;
   display: inline-block;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
   transition: 0.1s;
   padding: 0 30px;
   position: relative;
@@ -226,9 +211,7 @@ li {
 
 @media only screen and (min-width: 768px) {
   #egh .right-col .rightNav {
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: -webkit-transform 0.2s ease-in-out;
-    -o-transition: transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     float: right;
@@ -283,12 +266,6 @@ li {
     overflow: visible;
   }
 }
-#egh.unreal_engine .accent-bg-color-hover:hover {
-  color: #fff;
-}
-#egh.unreal_engine .right-col .rightNav #form.search {
-  background-color: #393939;
-}
 #egh .right-col .rightNav #form.search {
   position: absolute;
   pointer-events: none;
@@ -320,8 +297,6 @@ li {
   }
 }
 #egh .right-col .rightNav #form.search .search-btn:hover {
-  -webkit-transition: outline 0.3s ease-in-out;
-  -o-transition: outline 0.3s ease-in-out;
   transition: outline 0.3s ease-in-out;
 }
 #egh .right-col .rightNav #form.search.closed .search-btns {
@@ -332,8 +307,6 @@ li {
 }
 #egh .right-col .rightNav #form.search .close-btn a:hover,
 #egh .right-col .rightNav #form.search .search-btn {
-  -webkit-transition: outline 0.3s ease-in-out;
-  -o-transition: outline 0.3s ease-in-out;
   transition: outline 0.3s ease-in-out;
 }
 #egh .right-col .rightNav #form.search .search-btns {
@@ -342,10 +315,6 @@ li {
   height: 100%;
   margin: 0;
   top: 0;
-}
-#egh.unreal_engine .close-btn:hover,
-#egh.unreal_engine .search-btn:hover {
-  background-color: #505050;
 }
 #egh .hidden {
   display: none !important;
@@ -408,7 +377,6 @@ input {
     padding: 0 1em;
     text-align: center;
     min-width: 60px;
-    /* height: 100%; */
   }
 }
 #egh a {
@@ -433,20 +401,14 @@ a:hover {
     display: block;
     font-size: 1.25em;
     float: left;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
-#egh.unreal_engine .text-color-hover:hover,
-#egh.unreal_engine .text-color-hover:hover > i,
-#egh.unreal_engine i:hover {
-  color: #fff !important;
+a.accent-bg-color.accent-bg-color-hover:hover p {
+  color: #fff;
 }
 #egh.unreal_engine i {
   color: #ccc;
@@ -505,7 +467,8 @@ a:hover {
   /**
   /*2. START BODY CONTENT */
 .ue-app {
-  background-color: #2a2a2a;
+  background-color: #fff;
+  color: #000;
 }
 @media (min-width: 1200px) {
   .container {
@@ -620,7 +583,7 @@ a:hover {
 .hHQBtk h4,
 .hHQBtk h5,
 .hHQBtk h6 {
-  color: rgb(255, 255, 255);
+  color: #000;
   margin: calc(12px + 1.05vw) 0px;
 }
 .hHQBtk h3 {
@@ -629,7 +592,7 @@ a:hover {
 }
 .jKtyYv .copy {
   max-width: 750px;
-  color: rgb(255, 255, 255);
+  color: #000;
   line-height: 1.7em !important;
 }
 .hHQBtk .copy {
@@ -637,7 +600,7 @@ a:hover {
   line-height: 1.7em;
   max-width: 950px;
   position: relative;
-  color: rgb(245, 245, 245);
+  color: #000;
   overflow: hidden;
 }
 .eLxGyg {
@@ -680,7 +643,7 @@ a:hover {
 }
 .edatHa.btn.btn-primary {
   background-color: rgb(10, 175, 241);
-  color: rgb(255, 255, 255);
+  color: #000;
   border-color: rgb(10, 175, 241);
 }
 .edatHa.btn:not([disabled]) {
@@ -759,7 +722,6 @@ a:hover {
   text-decoration: none;
   justify-content: space-between;
   width: 100%;
-  /* backdrop-filter: blur(20px); */
   height: 60px;
   margin: 0px;
   padding: 0px;
@@ -860,6 +822,7 @@ section {
   border: 2px solid #0aaff1;
 }
 .button-wrapper a:hover {
+  color: #fff !important;
   background: #0aaff1;
 }
 /* End SECTION */
@@ -903,8 +866,7 @@ section {
   }
 }
 .edatHa.btn.btn-secondary {
-  background-color: rgba(17, 17, 17, 0.1);
-  color: rgb(255, 255, 255);
+  color: #000;
   border-color: rgb(10, 175, 241);
 }
 .edatHa.btn:not([disabled]) {
@@ -923,6 +885,7 @@ section {
   text-decoration: none;
 }
 a#home-all-news:hover {
+  color: #fff;
   background: rgb(10, 175, 241);
 }
 

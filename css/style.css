@@ -9,27 +9,22 @@
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px !important;
   line-height: 1.42857143;
-  background-color: #2a2a2a;
-  background: #2a2a2a;
-  -webkit-font-smoothing: auto;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   height: 3.7em;
   position: static !important;
-  -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 #egh.unreal_engine .bg-color,
 #egh.unreal_engine nav,
 #egh.unreal_engine ul {
-  background-color: #2a2a2a;
+  background: #fff !important;
 }
 #egh.unreal_engine .text-color,
 #egh.unreal_engine a,
 #egh.unreal_engine nav {
-  color: #e7e7e7;
+  color: #000;
 }
 #egh nav {
   position: absolute;
@@ -96,9 +91,6 @@
 }
 #egh .egLogo,
 #egh .egLogo:hover {
-  -webkit-transition: opacity 0.2s ease-out;
-  -o-transition: 0.2s opacity ease-out;
-  -o-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
 }
 #egh .cursor-pointer {
@@ -118,16 +110,13 @@
   overflow: hidden;
 }
 a#propLogo {
-  font-size: 50px;
+  font-size: 30px;
   line-height: 50px;
-  margin: 0px 0 0 50px;
+  margin: 0px 60px 0 50px;
   color: #fff;
 }
 #egh .propLogo:hover {
   opacity: 1;
-  -webkit-transition: opacity 0.2s ease-in;
-  -o-transition: 0.2s opacity ease-in;
-  -o-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
 }
 #egh a:active,
@@ -141,8 +130,6 @@ a#propLogo {
 #egh .nav-line {
   pointer-events: auto;
   display: inline-block;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
   transition: 0.1s;
   padding: 0 30px;
   position: relative;
@@ -210,9 +197,7 @@ li {
 
 @media only screen and (min-width: 768px) {
   #egh .right-col .rightNav {
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: -webkit-transform 0.2s ease-in-out;
-    -o-transition: transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     float: right;
@@ -267,12 +252,6 @@ li {
     overflow: visible;
   }
 }
-#egh.unreal_engine .accent-bg-color-hover:hover {
-  color: #fff;
-}
-#egh.unreal_engine .right-col .rightNav #form.search {
-  background-color: #393939;
-}
 #egh .right-col .rightNav #form.search {
   position: absolute;
   pointer-events: none;
@@ -304,8 +283,6 @@ li {
   }
 }
 #egh .right-col .rightNav #form.search .search-btn:hover {
-  -webkit-transition: outline 0.3s ease-in-out;
-  -o-transition: outline 0.3s ease-in-out;
   transition: outline 0.3s ease-in-out;
 }
 #egh .right-col .rightNav #form.search.closed .search-btns {
@@ -316,8 +293,6 @@ li {
 }
 #egh .right-col .rightNav #form.search .close-btn a:hover,
 #egh .right-col .rightNav #form.search .search-btn {
-  -webkit-transition: outline 0.3s ease-in-out;
-  -o-transition: outline 0.3s ease-in-out;
   transition: outline 0.3s ease-in-out;
 }
 #egh .right-col .rightNav #form.search .search-btns {
@@ -326,10 +301,6 @@ li {
   height: 100%;
   margin: 0;
   top: 0;
-}
-#egh.unreal_engine .close-btn:hover,
-#egh.unreal_engine .search-btn:hover {
-  background-color: #505050;
 }
 #egh .hidden {
   display: none !important;
@@ -392,7 +363,6 @@ input {
     padding: 0 1em;
     text-align: center;
     min-width: 60px;
-    /* height: 100%; */
   }
 }
 #egh a {
@@ -402,7 +372,11 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
+a:focus,
+a:hover {
+  color: #077aa8;
+  text-decoration: underline;
+}
 #egh .right-col .rightNav #form.search .search-btn i,
 #egh .right-col .rightNav #form.search .search-btn span {
   padding: 0;
@@ -413,20 +387,14 @@ a:focus {
     display: block;
     font-size: 1.25em;
     float: left;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
-#egh.unreal_engine .text-color-hover:hover,
-#egh.unreal_engine .text-color-hover:hover > i,
-#egh.unreal_engine i:hover {
-  color: #fff !important;
+a.accent-bg-color.accent-bg-color-hover:hover p {
+  color: #fff;
 }
 #egh.unreal_engine i {
   color: #ccc;
